@@ -17,6 +17,10 @@
     background: #7DA94D;
 }
 
+.leader .lead{
+    padding: 0 2em;
+}
+
 .existing a {
     color: white;
     text-decoration: underline;
