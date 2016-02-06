@@ -1,4 +1,39 @@
-/*Begin Homepage styles*/
+.top-bar {
+    border-bottom: 1px solid #777;
+}
+
+.login input {
+    display: inline;
+    height: 26px;
+    border-radius: 3px;
+}
+
+.login .title {
+    float: right;
+    margin-right: 1rem;
+    text-transform: uppercase;
+}
+
+.login .button {
+    padding: 0.50em 1em;
+    border-radius: 3px;
+    background: #8DBF58;
+    margin: 0 auto;
+    position: relative;
+    text-transform: uppercase;
+    font-size: 12px;
+}
+
+.login .button:hover {
+    background: #7DA94D;
+}
+
+.login [type='text'],
+[type='password'] {
+    font-size: 12px;
+    text-transform: uppercase;
+    margin-bottom: 0;
+}
 
 .leader {
     background: #154588;
@@ -41,13 +76,6 @@ li.logo {
 
 .logo img {
     width: 15em;
-}
-
-.login .button {
-    padding: 0.50em 4em;
-    border-radius: 3px;
-    background: #8DBF58;
-    margin: 1em 10em 0 0;
 }
 
 .login .button:hover {
